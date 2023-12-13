@@ -22,4 +22,4 @@ SwiftShuttle
   
   
 ### More Details
-  - Check [WIKI](https://github.ibm.com/CIO-Ideathon-Q4-2023/Shuttle-service-app-Techjutsu/wiki/SwiftShuttle)   
+  - Check [WIKI](https://github.com/sngrmvj/SwiftShuttle/wiki/SwiftShuttle)   
