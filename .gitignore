@@ -128,3 +128,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+ShuttleDriver/node_modules
+ShuttleUser/node_modules
+ShuttleServer/__pycache__
+ShuttleDriver/.expo
+ShuttleUser/.expo
+

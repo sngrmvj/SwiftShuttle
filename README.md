@@ -1,7 +1,25 @@
-# SwiftShuttle
-SwiftShuttle is react native app which tracks the shuttle in manyata tech park
 
 
+SwiftShuttle
+============
 
-### WIKI
-- For more details check [WIKI](https://github.com/sngrmvj/SwiftShuttle/wiki/SwiftShuttle)
+
+### How to Run
+- We have 2 interfaces and Server
+  - User
+    - User can select the bus stop from dropdown can get the distance and time of the bus that reaches the stop
+    - If you running in the vs code
+      - `npm install`
+      - `expo start` 
+  - Driver
+    - Driver has to switch on the location then, the co-ordinates get shared to the ShuttleServer.
+    - If you are running in the vscode
+      - `yarn install`
+      - `yarn web`
+      - `yarn android`
+  - Server
+    - Run the `pip3 install -r requirements.txt` and `python3 main.py` to connect the User and Driver.
+  
+  
+### More Details
+  - Check [WIKI](https://github.ibm.com/CIO-Ideathon-Q4-2023/Shuttle-service-app-Techjutsu/wiki/SwiftShuttle)   

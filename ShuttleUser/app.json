@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "shuttleuser",
+    "slug": "shuttleuser",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}

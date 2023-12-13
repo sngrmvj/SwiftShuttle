@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  redis:
+    image: bitnami/redis:latest
+    container_name: swiftshuttle-redis
+    ports:
+      - 6379:6379
+    environment:
+      REDIS_PASSWORD: default
+    volumes:
+      - redisvol:/bitnami/redis/data
+    restart: always
+volumes:
+  redisvol:

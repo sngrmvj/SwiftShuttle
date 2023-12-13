@@ -1,0 +1,20 @@
+{
+  "name": "swiftshuttlePartner",
+  "displayName": "swiftshuttlePartner",
+  "expo": {
+    "name": "swiftshuttlePartner",
+    "slug": "swiftshuttlePartner",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ]
+  }
+}
